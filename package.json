@@ -1,0 +1,31 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "DeeLaKs resume",
+  "main": "resume.json",
+  "scripts": {
+    "validate": "npx resume validate",
+    "serve": "npx resume serve --theme eloquent-mod",
+    "export-html": "npx resume export index.html --format html --theme eloquent-mod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deelaks/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "deelaks"
+  ],
+  "author": "deelaks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deelaks/resume/issues"
+  },
+  "homepage": "https://github.com/deelaks/resume#readme",
+  "dependencies": {
+    "jsonresume-theme-caffeine": "git+https://github.com/kelyvin/jsonresume-theme-caffeine",
+    "jsonresume-theme-eloquent-mod": "^4.24.0",
+    "jsonresume-theme-flat": "^0.3.7",
+    "resume-cli": "^3.0.8"
+  }
+}
