@@ -23,9 +23,7 @@
   },
   "homepage": "https://github.com/deelaks/resume#readme",
   "dependencies": {
-    "jsonresume-theme-caffeine": "git+https://github.com/kelyvin/jsonresume-theme-caffeine",
     "jsonresume-theme-eloquent-mod": "^4.24.0",
-    "jsonresume-theme-flat": "^0.3.7",
     "resume-cli": "^3.0.8"
   }
 }
