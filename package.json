@@ -6,7 +6,8 @@
   "scripts": {
     "validate": "npx resume validate",
     "serve": "npx resume serve --theme eloquent-mod",
-    "export-html": "npx resume export index.html --format html --theme eloquent-mod"
+    "export-html": "npx resume export index-to-export.html --format html --theme eloquent-mod",
+    "export-pdf": "npx resume export resume-to-export.pdf --format pdf --theme eloquent-mod"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,7 @@
     "url": "https://github.com/deelaks/resume/issues"
   },
   "homepage": "https://github.com/deelaks/resume#readme",
-  "dependencies": {
+  "devDependencies": {
     "jsonresume-theme-eloquent-mod": "^4.24.0",
     "resume-cli": "^3.0.8"
   }
